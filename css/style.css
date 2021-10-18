@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
     background-color: blue;
 } 
@@ -19,9 +19,82 @@
 
 .float {
     float: left;
-    width: 30%;
+    width: calc(33.33% - 14px);
+    
 }
 
+.margin {
+    margin: 10px;
+}
 
+img{
+    width: 100%;
+}
 
+.center {
+    margin: 10px 0 ;
+}
 
+.relative {
+    position: relative;
+}
+
+.sconto{
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    background-color: crimson;
+    color: white;
+    font-size: 0.5em;
+    padding: 5px;
+}
+
+.green-bottom {
+    position: absolute;
+    bottom: 12px;
+    left: 33px;
+    background-color: green;
+    color: white;
+    font-size: 0.5em;
+    padding: 5px;
+    
+}
+
+.hearths {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.invisible {
+    position: absolute;
+}
+
+.invisible:hover{
+    display: none;
+}
+
+.hearths:hover{
+    color: tomato;
+}
+
+.mark{
+    font-size: 0.7em;
+}
+
+.description {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 0.7em;
+    color: tomato ;
+}
+
+.sbarrato {
+    font-size: 0.7em;
+    text-decoration-line: line-through;
+}
