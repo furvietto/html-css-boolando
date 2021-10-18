@@ -22,6 +22,10 @@
     
 }
 
+.relative {
+    position: relative;
+}
+
 .margin {
     margin: 10px;
 }
@@ -34,9 +38,6 @@ img{
     margin: 10px 0 ;
 }
 
-.relative {
-    position: relative;
-}
 
 .sconto{
     position: absolute;
@@ -83,11 +84,15 @@ img{
 
 .invisible {
     position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
 }
 
-.invisible:hover{
-    display: none;
+.relative:hover .invisible{
+    display: inline-block;
 }
+
 
 .hearths:hover{
     color: tomato;
@@ -107,7 +112,7 @@ img{
     color: tomato ;
 }
 
-.sbarrato {
+.line-through {
     font-size: 0.7em;
     text-decoration-line: line-through;
 }
