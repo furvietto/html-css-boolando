@@ -93,6 +93,9 @@ img{
     display: inline-block;
 }
 
+.hearths {
+    border: 0px;
+}
 
 .hearths:hover{
     color: tomato;
